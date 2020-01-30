@@ -1,0 +1,17 @@
+service: python-serverless-fib
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  fibonacci:
+    name: fibonacci
+    handler: handler.fib
+    description: Calculates the Fibonacci sequence
+    environment:
+      MAX_RANGE: 10
+    events:
+      - http:
+        path: /
+        method: get

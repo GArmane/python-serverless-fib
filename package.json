@@ -1,0 +1,9 @@
+{
+  "name": "python-serverless-fib",
+  "version": "1.0.0",
+  "description": "A simple serverless Fibonacci function",
+  "repository": "git@github.com:GArmane/python-serverless-fib.git",
+  "author": "Giovanni Armane <giovanniarmane@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
