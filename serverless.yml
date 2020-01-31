@@ -10,7 +10,7 @@ functions:
     handler: handler.fib
     description: Calculates the Fibonacci sequence
     environment:
-      MAX_RANGE: 10
+      CALC_LIMIT: 10
     events:
       - http:
           path: fib
