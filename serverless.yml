@@ -13,5 +13,5 @@ functions:
       MAX_RANGE: 10
     events:
       - http:
-        path: /
-        method: get
+          path: fib
+          method: get
