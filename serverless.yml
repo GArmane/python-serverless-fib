@@ -7,10 +7,10 @@ provider:
 functions:
   fibonacci:
     name: fibonacci
-    handler: app/aws_lambda.fib
+    handler: app/aws_lambda.fib_sequence
     description: Calculates the Fibonacci sequence
     environment:
-      CALC_LIMIT: 10
+      CALC_LIMIT: 12
     events:
       - http:
           path: fib

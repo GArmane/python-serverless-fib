@@ -1,7 +1,7 @@
 from json import dumps
 from typing import Any, Dict, Union
 from app.config import Config
-from app.core.fibonacci import calculate_fib
+from app.core.fibonacci import calculate_sequence
 
 # Types
 Response = Dict[str, Union[int, str]]
@@ -15,6 +15,6 @@ def _make_response(status: int, body: Any) -> Response:
         "body": dumps(body)
     }
 
-def fib(_event, _context) -> Response:
-    sequence = calculate_fib(CALC_LIMIT)
+def fib_sequence(_event, _context) -> Response:
+    sequence = calculate_sequence(CALC_LIMIT)
     return _make_response(200, sequence)
