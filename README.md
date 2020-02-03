@@ -1,2 +1,2 @@
 # Python Serverless Fib
-A simple Fibonacci Sequencer serverless function
+A simple Fibonacci Sequence serverless function
