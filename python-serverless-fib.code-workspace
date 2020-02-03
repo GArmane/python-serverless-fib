@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		"editor.tabSize": 4,
 		"python.linting.enabled": true,
 		"python.linting.lintOnSave": true,
 		"python.linting.pylintEnabled": true,
